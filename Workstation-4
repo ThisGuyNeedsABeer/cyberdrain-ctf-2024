@@ -1,0 +1,9 @@
+Challenge info
+Bruce Banner has created a ticket that websites do not load at all times. He get's an error but clicks it away. 
+Weirdly enough, at other times it does work. The flag is the reason for some websites not loading.
+
+Solve:
+1. Review system proxy settings
+2. Find the following configuration file
+
+Flag: https://ctf.cyberdrain.com/files/bca8d9a87365e0014c75fcf192ed787a/proxy.pac
