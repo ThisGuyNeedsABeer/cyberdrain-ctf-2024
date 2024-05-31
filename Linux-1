@@ -1,0 +1,7 @@
+Challenge info
+After booting Linux02 it boots directly to a kernel panic. The flag is the file that caused this.
+
+Solve:
+1. Review the kernel panic shown on screen
+
+Flag: /sbin/init
