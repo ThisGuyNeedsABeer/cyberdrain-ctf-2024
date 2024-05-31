@@ -1,0 +1,8 @@
+Challenge info
+The application "CyberDrainAPP" on workstation02 keeps crashing whenever it's started. The flag is the reason for the crash
+
+Solve:
+1. Create path to C:\ProgramData\CyberDrainAPP\logs\log.txt
+2. Flag is in the file
+
+Flag: c9aae29f-fbfc-4f34-8f8b-505f69a65aad
