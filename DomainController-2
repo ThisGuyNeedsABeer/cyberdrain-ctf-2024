@@ -1,0 +1,9 @@
+Challenge info
+on DC02 the DNS server no longer starts at some of the boots. The issue seems to occur especially when the server is processing other tasks. The flag is the name of what's blocking the service from starting
+
+Solve:
+1. Review Windows Event Viewer (Application)
+2. Find that unbound is running on 53
+3. Unbound is preventing DNS Server from starting
+
+Flag: unbound
