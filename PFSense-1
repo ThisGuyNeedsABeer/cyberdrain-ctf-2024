@@ -1,0 +1,12 @@
+Challenge info
+Otto Octavius has had a crash of his datacenter PFSense firewall. He was ableto restore a single file, which happened to be his pfsense configuration file. 
+Unfortantelly he gets errors when uploading this file to his pfsense firewall.
+
+The flag is the line number where the issue occurs.
+
+Given File: config-pfSense.home.arpa-20210712081651.xml
+
+1. Login to the PFSense VM provided in Hyper-V
+2. Try to import config and receive error on line 73
+
+Flag: 73
