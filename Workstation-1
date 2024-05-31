@@ -1,0 +1,13 @@
+Challenge info
+Scott Lang has sent a ticket that his workstation is really slow at startup. Like for the first hour he is unable to use the machine. 
+He also says the fans start blowing loudly whenever it happens.
+
+He shrunk himself and cleaned the fans, but that didn't help. The flag is the reason Scott's workstation is slow for 
+45 minutes to an hour each time he starts up.
+
+Solve:
+1. Download Sysinternals Autoruns
+2. Review startup
+3. Find this entry: \Microsoft\Windows\CloudExperienceHost\Start CryptoMiner.exe	1	(Not Verified) 	C:\Program Files\Common Files\System\cryptominer.exe	Sun Jul 11 15:12:51 2021	
+
+Flag: cryptominer
