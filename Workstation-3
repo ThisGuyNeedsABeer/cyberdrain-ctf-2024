@@ -1,0 +1,10 @@
+Challenge info
+The virtual lab has the application "UpgradedApp" available. This application must fixed. The flag will be given by the application if you fixed it.
+
+Solve:
+1. Identify file is packed with ps2.exe (https://www.unpac.me/results/78b15316-9517-4c9f-907d-29ff8d11e634)
+2. Revoew CAPA compiler result
+3. Extract "UpgradedApp.exe -extract:script.ps1"
+4. View contents of script
+
+flag: 2f1f0516-568e-43f9-b9c2-2dc1f613410d
